@@ -38,7 +38,7 @@
                         search" }}</span>
                     <select class="masthead__dropdown-select" style="box-shadow: none; background-color: unset; margin-bottom: 0px;" onchange="change_language()" id="select_language">
                         {% for lang in site.data.languages.languages %}
-                            <option value="/content{{ lang.url | relative_url }}">{{ lang.name }}</option>
+                            <option value="{{ lang.url | relative_url }}">{{ lang.name }}</option>
                         {% endfor %}
                     </select>
                 </div>

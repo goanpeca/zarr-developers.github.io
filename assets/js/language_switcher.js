@@ -2,7 +2,7 @@ window.addEventListener("DOMContentLoaded", function() {
   let current_language = localStorage.getItem("current_language");
   if (current_language === null) {
     // No language set, defaulting to English
-    current_language = "/content/en";
+    current_language = "/en";
   }
   // Set the option in the select element to have the "selected" attribute
   var selectElement = document.getElementById("select_language");

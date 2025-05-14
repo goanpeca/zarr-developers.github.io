@@ -1,6 +1,6 @@
 main:
   - title: "en"
-    url: "/content/en/"
+    url: "/en/"
     children:
     - title: "Documentation"
       url: "https://zarr.readthedocs.io/en/stable/"
@@ -17,7 +17,7 @@ main:
         - title: "Português"
           url: "/pt/"
   - title: "es"
-    url: "/content/es/"
+    url: "/es/"
     children:
     - title: "Documentación"
       url: "https://zarr.readthedocs.io/en/stable/"
@@ -34,7 +34,7 @@ main:
         - title: "Português"
           url: "/pt/"
   - title: "pt"
-    url: "/content/pt/"
+    url: "/pt/"
     children:
     - title: "Documentação"
       url: "https://zarr.readthedocs.io/en/stable/"
@@ -68,19 +68,19 @@ sidebar-en:
   - title: Subpages
     children:
       - title: "Adopters"
-        url: "/content/en/adopters"
+        url: "/en/adopters"
       - title: "Blog"
         url: '/blog'
       - title: "Community"
-        url: '/content/en/community'
+        url: '/en/community'
       - title: "Conventions"
-        url: '/content/en/conventions'
+        url: '/en/conventions'
       - title: "Datasets"
-        url: '/content/en/datasets'
+        url: '/en/datasets'
       - title: "Implementations"
-        url: '/content/en/implementations'
+        url: '/en/implementations'
       - title: "Office Hours"
-        url: "/content/en/office-hours"
+        url: "/en/office-hours"
       - title: "Slides"
         url: "/slides"
       - title: "Specification"
@@ -103,19 +103,19 @@ sidebar-es:
   - title: Subpáginas
     children:
       - title: "Adoptantes"
-        url: "/content/es/adopters"
+        url: "/es/adopters"
       - title: "Blog"
         url: '/blog'
       - title: "Comunidad"
-        url: '/content/es/community'
+        url: '/es/community'
       - title: "Convenciones"
-        url: '/content/es/conventions'
+        url: '/es/conventions'
       - title: "Conjuntos de datos"
-        url: '/content/es/datasets'
+        url: '/es/datasets'
       - title: "Implementaciones"
-        url: '/content/es/implementations'
+        url: '/es/implementations'
       - title: "Oficina de horas"
-        url: "/content/es/office-hours"
+        url: "/es/office-hours"
       - title: "Diapositivas"
         url: "/slides"
       - title: "Especificación"
@@ -138,19 +138,19 @@ sidebar-pt:
   - title: Subpáginas
     children:
       - title: "Adotantes"
-        url: "/content/pt/adopters"
+        url: "/pt/adopters"
       - title: "Blog"
         url: '/blog'
       - title: "Comunidade"
-        url: '/content/pt/community'
+        url: '/pt/community'
       - title: "Convenções"
-        url: '/content/pt/conventions'
+        url: '/pt/conventions'
       - title: "Conjuntos de dados"
-        url: '/content/pt/datasets'
+        url: '/pt/datasets'
       - title: "Implementacões"
-        url: '/content/pt/implementations'
+        url: '/pt/implementations'
       - title: "Reuniões"
-        url: "/content/pt/office-hours"
+        url: "/pt/office-hours"
       - title: "Apresentações"
         url: "/slides"
       - title: "Especificação"
