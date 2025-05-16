@@ -4,7 +4,7 @@ author_profile: false
 title: Zarr Conventions
 sidebar:
   title: "Content"
-  nav: sidebar-es
+  nav: sidebar
 ---
 
 <font size="4">

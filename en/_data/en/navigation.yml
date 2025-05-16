@@ -1,0 +1,54 @@
+main:
+  - title: "en"
+    url: "/en/"
+    children:
+    - title: "Documentation"
+      url: "https://zarr.readthedocs.io/en/stable/"
+    - title: "Contribute"
+      url: "https://zarr.readthedocs.io/en/stable/developers/contributing.html"
+    - title: "Python Quickstart"
+      url: "https://zarr.readthedocs.io/en/stable/quickstart.html"
+    - title: "Language"
+      children:
+        - title: "English"
+          url: "/en/"
+        - title: "Español"
+          url: "/es/"
+        - title: "Português"
+          url: "/pt/"
+
+sidebar:
+  - title: About
+    children:
+      - title: "Description"
+        url: '#description'
+      - title: "Applications"
+        url: '#applications'
+      - title: "Features"
+        url: '#features'
+      - title: "Sponsorship"
+        url: "#sponsorship"
+      - title: "Videos"
+        url: "#videos"
+  - title: Subpages
+    children:
+      - title: "Adopters"
+        url: "/adopters/"
+      - title: "Blog"
+        url: 'blog/'  # No starting slash, means not localized
+      - title: "Community"
+        url: '/community/'
+      - title: "Conventions"
+        url: '/conventions/'
+      - title: "Datasets"
+        url: '/datasets/'
+      - title: "Implementations"
+        url: '/implementations/'
+      - title: "Office Hours"
+        url: "/office-hours/"
+      - title: "Slides"
+        url: "slides/"  # No starting slash, means not localized
+      - title: "Specification"
+        url: https://zarr-specs.readthedocs.io/
+      - title: "ZEPs"
+        url: 'zeps/'  # No starting slash, means not localized

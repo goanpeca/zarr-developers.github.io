@@ -14,16 +14,6 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Zarr
-subtitle: chunked, compressed, N-dimensional arrays
-
-description: >- # this means to ignore newlines until "baseurl:"
-
-  Zarr is an open source project developing specifications and
-  software libraries for storage of data that is structured as
-  N-dimensional typed arrays (also known as tensors) in a way that is
-  compatible with parallel and distributed computing applications.
-
 baseurl: "" # the subpath of your site, e.g. /blog
 
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
@@ -90,8 +80,11 @@ footer:
 head_scripts:
   - assets/js/language_switcher.js
 
-defaults:
-  - scope:
-      path: "assets/img"
-    values:
-      image: true
+default_language: 'en'
+languages:
+  - prefix: 'en'
+    label: 'English'
+  - prefix: 'es'
+    label: 'Español'
+  - prefix: 'pt'
+    label: 'Português'
