@@ -18,9 +18,9 @@ https://github.com/mmistakes/minimal-mistakes/blob/4.26.2/_includes/masthead.htm
     <div class="masthead__menu">
       <nav id="site-nav" class="greedy-nav">
         {% unless logo_path == empty %}
-          <a class="site-logo" href="{{ '/' | relative_url }}"><img src="{{ logo_path | relative_url }}" alt="{{ site.masthead_title | default: site.title }}"></a>
+          <a class="site-logo" href="{{ ('/' |append: page_language | append: '/') | relative_url }}"><img src="{{ logo_path | relative_url }}" alt="{{ site.masthead_title | default: site.title }}"></a>
         {% endunless %}
-        <a class="site-title" href="{{ '/' | relative_url }}">
+        <a class="site-title" href="{{ ('/' |append: page_language | append: '/') | relative_url }}">
           {{ site.data[page_language].messages.title }}
           <span class="site-subtitle">{{ site.data[page_language].messages.subtitle }}</span>
         </a>

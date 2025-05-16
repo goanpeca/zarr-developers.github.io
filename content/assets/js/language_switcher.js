@@ -18,19 +18,16 @@ window.addEventListener("DOMContentLoaded", function() {
 function change_language() {
   var selectElement = document.getElementById("select_language");
   var value = selectElement.options[selectElement.selectedIndex].value;
-  console.log("Changing language to: " + value);
+
   // Get the current page URL
   const currentPageUrl = window.location.href;
   const old_language = localStorage.getItem("current_language");
 
-  console.log("Current page URL: " + currentPageUrl);
-  console.log("Old language: " + old_language);
-
   localStorage.setItem("current_language", value);
   // Update the lang attribute of the HTML element
-  document.documentElement.setAttribute("lang", value.split("/")[2]);
+  document.documentElement.setAttribute("lang", value);
   window.location.href = currentPageUrl.replace(
-    "/" + old_language,
-    "/" + value
+    "/" + old_language + "/",
+    "/" + value + "/"
   );
 }
