@@ -8,9 +8,9 @@ sidebar:
 ---
 
 <font size="4">
-El formato de almacenamiento Zarr se utiliza en varios dominios y tiene comunidades activas para cada campo. Estas comunidades han establecido varias convenciones encima de Zarr.<font size="4"><0>
+El formato de almacenamiento Zarr se utiliza en varios dominios y tiene comunidades activas para cada campo. Estas comunidades han establecido varias convenciones encima de Zarr.<br><br>
 
-Estas son algunas de las convenciones que se utilizan actualmente:<a href="https://anndata.readthedocs.io/en/latest/">
+Estas son algunas de las convenciones que se utilizan actualmente:<br>
 
 <ul>
 <li><a href="https://anndata.readthedocs.io/en/latest/">Anndata</a></li>
@@ -21,5 +21,5 @@ Estas son algunas de las convenciones que se utilizan actualmente:<a href="https
 <li><a href="https://docs.xarray.dev/en/stable/internals/zarr-encoding-spec.html">Xarray</a></li>
 </ul>
 
-Si está trabajando en/conoce una nueva convención y desea agregarla a la lista, no dude en
-para enviar una solicitud de cambio (PR al <a href="https://github.com/zarr-developers/zarr-developers.github.io/">repositorio</a> del sitio web. </font>
+Si está trabajando en o conoce una nueva convención y desea agregarla a la lista, no dude en
+enviar una solicitud de cambio (PR) al <a href="https://github.com/zarr-developers/zarr-developers.github.io/">repositorio</a> del sitio web. </font>

@@ -39,7 +39,7 @@ La mayoría de las discusiones y chats relacionados con Zarr y sus [implementaci
 
 - Interactuar con los mantenedores, contribuyentes y usuarios del proyecto; Únase al ZulipChat → [aquí](https://ossci.zulipchat.com/)
 - Quiere hacer preguntas relacionadas con el uso de [`zarr-python`](https://github.com/zarr-developers/zarr-python), cree una nueva discusión en GitHub → [aquí](https://github.com/zarr-developers/zarr-python/discussions)
-- Contribuir y participar en debates relacionados con la especificación Zarr; consulte el [repositorio] `zarr-specs`(https://github.com/zarr-developers/zarr-specs/) o cree un reporte → [aquí](https://github.com/zarr-developers/zarr-specs/issues)
+- Contribuya y participar en debates relacionados con la especificación Zarr; consulte el [repositorio](https://github.com/zarr-developers/zarr-specs/) `zarr-specs` o cree un reporte → [aquí](https://github.com/zarr-developers/zarr-specs/issues)
 
 También, encuéntrenos en:
 

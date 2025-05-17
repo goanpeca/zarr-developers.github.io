@@ -7,9 +7,8 @@ sidebar:
   nav: sidebar
 ---
 
-<0>
-Zarr es un formato de almacenamiento de datos basado en una <1>especificación</1> de código abierto, lo que hace posibles implementaciones en varios lenguajes. Se utiliza en varios
-dominios, incluidos geoespacial, bioimágenes, genómica, ciencia de datos y computación de alto desempeño (HPC). 🌏🔬🧬<br><br>
+<font size="4">Zarr es un formato de almacenamiento de datos basado en una <a
+href="https://zarr-specs.readthedocs.io/">especificación</a> de código abierto, lo que hace posibles implementaciones en varios lenguajes. Se utiliza en varios dominios, incluidos geoespacial, bioimágenes, genómica, ciencia de datos y computación de alto desempeño (HPC). 🌏🔬🧬<br><br>
 
 Las implementaciones de las versiones 2 y 3 de Zarr se enumeran (en orden alfabético por idioma) de la siguiente manera:<br><br> </font>
 
@@ -40,9 +39,7 @@ Las implementaciones de las versiones 2 y 3 de Zarr se enumeran (en orden alfab�
 | Rust          | [zarr3-rs]     |    | ?  | ![][zarr3-rs-lu]                |
 | Rust/Python/C | [zarrs]        | ✓  | ✓  | ![][zarrs-re]                   |
 
-<0> ✓ Probablemente conforme</sup>
-<0>? Conformidad desconocida</0>
-<1>✗ No conforme</1>
+<sup>✓ ¿Probablemente compatible</sup> <sup>? Compatibilidad desconocida</sup> <sup>✗ No compatible</sup>
 
 [NetCDF-C]: https://github.com/Unidata/netcdf-c
 [NetCDF-C-re]: https://img.shields.io/github/release-date-pre/Unidata/netcdf-c
@@ -93,9 +90,7 @@ Las implementaciones de las versiones 2 y 3 de Zarr se enumeran (en orden alfab�
 [zarr-java]: https://github.com/zarr-developers/zarr-java
 [zarr-java-re]: https://img.shields.io/github/release-date-pre/zarr-developers/zarr-java
 
-<br>
-→ No dude en agregar cualquier implementación que falte enviando una solicitud de cambio (PR) al <1>repositorio</1> del sitio web. 🤝🏻<0><0>
+<font size="4">→ No dude en agregar cualquier implementación que falte enviando una solicitud de cambio (PR) al <a href="https://github.com/zarr-developers/zarr-developers.github.io/">repositorio</a> del sitio web. 🤝🏻 <br><br>
 
-→ Participe en varias implementaciones de Zarr corrigiendo errores, resolviendo problemas, mejorando la documentación o contribuyendo al código base.
-Si ha estado realizando alguna de estas actividades recientemente, lo invitamos a unirse a nuestras <a href="https://zarr.dev/community-calls/">reuniones comunitarias</a> y compartir su trabajo con nosotros. Estaremos encantados de mostrar sus esfuerzos. 💪🏻
-</0>
+→ Participe en varias implementaciones de Zarr corrigiendo errores, resolviendo problemas, mejorando la documentación o contribuyendo a la base de código.
+Si ha estado haciendo alguna de estas actividades recientemente, lo invitamos a unirse a nuestras <a href="https://zarr.dev/community-calls/">reuniones comunitarias</a> y compartir su trabajo con nosotros. Estaríamos encantados de mostrar sus esfuerzos. 💪🏻</font>

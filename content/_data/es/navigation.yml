@@ -3,40 +3,40 @@ main:
     url: "https://zarr.readthedocs.io/en/stable/"
   - title: "Contribuir"
     url: "https://zarr.readthedocs.io/en/stable/developers/contributing.html"
-  - title: "Inicia con Python"
+  - title: "Inicie con Python"
     url: "https://zarr.readthedocs.io/en/stable/quickstart.html"
 sidebar:
-  - title: Acerca de
+  - title: "Acerca de"
     children:
       - title: "Descripción"
         url: '#descripción'
       - title: "Aplicaciones"
         url: '#aplicaciones'
       - title: "Características"
-        url: '#features'
+        url: '#características'
       - title: "Patrocinio"
         url: "#patrocinio"
       - title: "Vídeos"
         url: "#videos"
-  - title: Páginas
+  - title: "Subpáginas"
     children:
       - title: "Usuarios"
-        url: "/adopters/"
+        url: "adopters/"
       - title: "Blog"
-        url: 'blog/' # No starting slash, means not localized
+        url: "/blog/"
       - title: "Comunidad"
-        url: '/community/'
+        url: "community/"
       - title: "Convenciones"
-        url: '/conventions/'
+        url: "conventions/"
       - title: "Conjuntos de datos"
-        url: '/datasets/'
+        url: "datasets/"
       - title: "Implementaciones"
-        url: '/implementations/'
+        url: "implementations/"
       - title: "Horarios de oficina"
-        url: "/office-hours/"
+        url: "office-hours/"
       - title: "Diapositivas"
-        url: "/slides/" # No starting slash, means not localized
+        url: "/slides/"
       - title: "Especificación"
-        url: https://zarr-specs.readthedocs.io/
+        url: "https://zarr-specs.readthedocs.io/"
       - title: "ZEPs"
-        url: 'zeps/' # No starting slash, means not localized
+        url: "/zeps/"

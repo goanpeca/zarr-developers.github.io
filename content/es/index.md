@@ -8,7 +8,7 @@ excerpt: ¿Tienes datos hermosos en Zarr? ¡Muéstranos en Bluesky!
 header:
   overlay_image: /assets/img/llc4320_sst.png
   overlay_filter: 0.5
-  caption: "Credit: Ryan Abernathey"
+  caption: "Créditos: Ryan Abernathey"
   actions:
     - label: Comparte aquí!
       url: https://bsky.app/intent/compose?text=@zarr.dev%20%23beautifuldata
@@ -50,9 +50,9 @@ Zarr es un proyecto patrocinado por NumFOCUS, una organización 501(c)(3) benéf
 
 Los proyectos patrocinados por NumFOCUS dependen del generoso apoyo de patrocinadores corporativos, socios institucionales y donantes individuales.
 
-## Vídeos
+## Videos
 
-[Vídeos](https://www.youtube.com/playlist?list=PLvkeNUPrCU04Xvcph4ErxsRkZq28Oucr7)
+[Videos](https://www.youtube.com/playlist?list=PLvkeNUPrCU04Xvcph4ErxsRkZq28Oucr7)
 de miembros de la comunidad hablando de Zarr. Si tiene un vídeo que le gustaría que compartiéramos, ¡háganoslo saber!
 
 <div class="video">
