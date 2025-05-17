@@ -1,40 +1,29 @@
 main:
-  - title: "en"
-    url: "/en/"
-    children:
-    - title: "Documentación"
-      url: "https://zarr.readthedocs.io/en/stable/"
-    - title: "Contribute"
-      url: "https://zarr.readthedocs.io/en/stable/developers/contributing.html"
-    - title: "Python Quickstart"
-      url: "https://zarr.readthedocs.io/en/stable/quickstart.html"
-    - title: "Language"
-      children:
-        - title: "English"
-          url: "/en/"
-        - title: "Español"
-          url: "/es/"
-        - title: "Português"
-          url: "/pt/"
+  - title: "Documentación"
+    url: "https://zarr.readthedocs.io/en/stable/"
+  - title: "Contribuir"
+    url: "https://zarr.readthedocs.io/en/stable/developers/contributing.html"
+  - title: "Inicia con Python"
+    url: "https://zarr.readthedocs.io/en/stable/quickstart.html"
 sidebar:
   - title: Acerca de
     children:
       - title: "Descripción"
-        url: '#description'
+        url: '#descripción'
       - title: "Aplicaciones"
-        url: '#applications'
+        url: '#aplicaciones'
       - title: "Características"
         url: '#features'
       - title: "Patrocinio"
-        url: "#sponsorship"
-      - title: "Videos"
+        url: "#patrocinio"
+      - title: "Vídeos"
         url: "#videos"
-  - title: Subpáginas
+  - title: Páginas
     children:
-      - title: "Usuarios de Zarr"
+      - title: "Usuarios"
         url: "/adopters/"
       - title: "Blog"
-        url: 'blog/'
+        url: 'blog/' # No starting slash, means not localized
       - title: "Comunidad"
         url: '/community/'
       - title: "Convenciones"
@@ -43,11 +32,11 @@ sidebar:
         url: '/datasets/'
       - title: "Implementaciones"
         url: '/implementations/'
-      - title: "Oficina de horas"
+      - title: "Horarios de oficina"
         url: "/office-hours/"
-      - title: "Diapositivas (EN)"
-        url: "slides/"
+      - title: "Diapositivas"
+        url: "/slides/" # No starting slash, means not localized
       - title: "Especificación"
         url: https://zarr-specs.readthedocs.io/
       - title: "ZEPs"
-        url: 'zeps/'
+        url: 'zeps/' # No starting slash, means not localized
