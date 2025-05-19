@@ -1,9 +1,11 @@
 window.addEventListener("DOMContentLoaded", function() {
   let current_language = localStorage.getItem("current_language");
-  if (current_language === null) {
+  let page_language = localStorage.getItem("page_language");
+  if (current_language !== page_language) {
     // No language set, defaulting to English
-    current_language = "en";
+    current_language = page_language || "en";
   }
+  console.log(current_language);
   // Set the option in the select element to have the "selected" attribute
   var selectElement = document.getElementById("select_language");
   var selectedOption = selectElement.querySelector(
@@ -16,18 +18,15 @@ window.addEventListener("DOMContentLoaded", function() {
 
 // Change language for current page
 function change_language() {
+  let page_language = localStorage.getItem("page_language");
   var selectElement = document.getElementById("select_language");
-  var value = selectElement.options[selectElement.selectedIndex].value;
+  var new_language = selectElement.options[selectElement.selectedIndex].value;
 
   // Get the current page URL
   const currentPageUrl = window.location.href;
-  const old_language = localStorage.getItem("current_language");
-
-  localStorage.setItem("current_language", value);
-  // Update the lang attribute of the HTML element
-  document.documentElement.setAttribute("lang", value);
+  localStorage.setItem("current_language", new_language);
   window.location.href = currentPageUrl.replace(
-    "/" + old_language + "/",
-    "/" + value + "/"
+    "/" + page_language + "/",
+    "/" + new_language + "/"
   );
 }
